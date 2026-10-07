@@ -1,0 +1,8 @@
+{
+  "name": "E-Lawyers Corporate Legal Services",
+  "description": "Complete RJSC, Corporate Compliance, Company Secretarial & IP Services in Bangladesh",
+  "requestFramePermissions": [
+    "camera"
+  ],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

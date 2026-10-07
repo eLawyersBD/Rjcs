@@ -1,0 +1,50 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    --font-mono: 'JetBrains Mono', monospace;
+  }
+
+  body {
+    font-family: var(--font-sans);
+    background-color: #F8FAFC;
+    color: #0B1F3A;
+  }
+
+  /* Monospaced tabular numbers for financial figures */
+  .font-mono {
+    font-family: var(--font-mono);
+    font-variant-numeric: tabular-nums;
+  }
+}
+
+/* Custom Palette Utilities matching exact specification */
+.bg-navy-brand {
+  background-color: #0B1F3A;
+}
+
+.text-navy-brand {
+  color: #0B1F3A;
+}
+
+.border-navy-brand {
+  border-color: #0B1F3A;
+}
+
+.text-nbr-emerald {
+  color: #00A86B;
+}
+
+.bg-nbr-emerald {
+  background-color: #00A86B;
+}
+
+.border-nbr-emerald {
+  border-color: #00A86B;
+}
+
+/* Smooth scroll & modern scrollbar styling */
+html {
+  scroll-behavior: smooth;
+}
